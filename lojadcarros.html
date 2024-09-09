@@ -1,0 +1,393 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Carros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000000;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .hero {
+            background: url('car-background.jpg') no-repeat center center/cover;
+            height: 300px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            width: 30%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product-info {
+            padding: 15px;
+        }
+        .product-info h2 {
+            margin: 0 0 10px;
+        }
+        .product-info p {
+            margin: 0;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        style
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .hero {
+            background: url('car-background.jpg') no-repeat center center/cover;
+            height: 300px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            width: 30%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product-info {
+            padding: 15px;
+        }
+        .product-info h2 {
+            margin: 0 0 10px;
+        }
+        .product-info p {
+            margin: 0;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .social-icons {
+            margin: 10px 0;
+        }
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 24px;
+        }
+        .social-icons a:hover {
+            color: #ddd;
+        }
+    </style>
+
+
+
+    
+</head>
+<body>
+    <header>
+        <h1>Diego Cars</h1>
+
+        
+        
+
+    
+       
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carrossel de Imagens</title>
+        <style>
+            .carousel {
+                position: relative;
+                width: 100%;
+                max-width: 200px; 
+                overflow: hidden;
+                margin: auto;
+            }
+    
+            .carousel-images {
+                display: flex;
+                width: 100%; 
+                transition: transform 0.5s ease-in-out;
+            }
+    
+            .carousel-images img {
+                width: 100%;
+                height: auto;
+            }
+    
+            .carousel:hover .carousel-images {
+                animation: slide 6s infinite;
+            }
+    
+            @keyframes slide {
+                0% { transform: translateX(0); }
+                33% { transform: translateX(-100%); }
+                66% { transform: translateX(-200%); }
+                100% { transform: translateX(0); }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="ford-mustang-5.4-shelby-gt-500.jpg" alt="Imagem 1">
+                <img src="civic.jpg" alt="Imagem 2">
+                <img src="ford-maverick.jpg" alt="Imagem 3">
+            </div>
+        </div>
+    </body>
+    </html>
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .card {
+            background: black;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: calc(33.333% - 20px);
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            border-radius: 8px 8px 0 0;
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+   
+    <div class="gallery">
+        <div class="card">
+            <img src="carros populares.jfif" alt="Imagem 1">
+            <div class="">
+                <h2>Carros populares</h2>
+                <p>Ver mais.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="ford.jfif" alt="Imagem 2">
+            <div class="card-content">
+                <h2>Carros populares</h2>
+                <p>Ver mais</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="carros2.jfif" alt="Imagem 3">
+            <div class="card-content">
+                <h2>Carros populares</h2>
+                <p>Ver mais</p>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
+
+    <div class="hero">
+        <h1>Encontre o Carro dos Seus Sonhos</h1>
+    </div>
+
+    <div class="container">
+        <section class="products">
+            <div class="product">
+                <img src="ford-maverick.jpg" alt="Carro 1">
+                <div class="product-info">
+                    <h2>Ford Maverick</h2>
+                    <p>Ford Maverick gt-coupe-v8-16v-gasolina-2p-manual</p>
+                    <p>R$ 203.000</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="ford-mustang-5.4-shelby-gt-500.jpg" alt="Carro 2">
+                <div class="product-info">
+                    <h2>Mustang Shelby gt 500</h2>
+                    <p>5.4 SHELBY GT 500 COUPÉ V8 32V GASOLINA 2P MANUAL.</p>
+                    <p>R$ 549.000</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="civic.jpg" alt="Carro 3">
+                <div class="Civic 1998">
+                    <h2>Civic 1998</h2>
+                    <p>Civic 98 original</p>
+                    <p>R$ 20.000</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy;   Diego Cars. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+    <footer>
+        <p>&copy; 2024 Loja de Carros. Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">&#xf09a;</a>
+            <a href="https://twitter.com" target="_blank">&#xf099;</a>
+            <a href="https://instagram.com" target="_blank">&#xf16d;</a>
+            <a href="https://linkedin.com" target="_blank">&#xf08c;</a>
+        </div>
+    </footer>
+
+
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
+           
+
+            
+        </ul>
+    </nav>
+</header>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    
+
+/body>
+
+
+
+</html>
